@@ -27,8 +27,5 @@ for i in range(6):
 
         print(f"Cython time: {cython_time} segundos.")
 
-
-        print(f'Cython es {cython_time/python_time} mas rapido que python')
-
         with open('data_regression.csv', 'a') as archivo:
             archivo.write('\n{:.6f},{:.6f}'.format(python_time, cython_time))
