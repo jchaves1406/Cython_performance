@@ -1,3 +1,10 @@
+"""
+Autor: Jesús Chaves
+Regresión Lineal, método de minimos cuadrados ordinarios
+Fecha 22 de noviembre 2022
+Tema: Optimización en Cython
+"""
+
 import numpy as np
 import linear_regression_cy
 import linear_regression_py
